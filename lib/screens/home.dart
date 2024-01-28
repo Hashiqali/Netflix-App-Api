@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:netflix/screens/pages/firstpage/firstpage.dart';
 import 'package:netflix/screens/pages/secondpage/secondpage.dart';
+import 'package:netflix/screens/pages/thirdpage/thirdpage.dart';
 
 class Homescreen extends StatefulWidget {
   Homescreen({super.key});
@@ -16,8 +17,8 @@ class _HomescreenState extends State<Homescreen> {
   final List<Widget> _tabs = [
     // Replace with your tab widgets
     Fisrtpage(),
-    SecondPage(),
-    const Placeholder(color: Colors.orange),
+    const SecondPage(),
+    const thirdPage()
   ];
   @override
   Widget build(BuildContext context) {

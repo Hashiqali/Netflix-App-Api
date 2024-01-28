@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix/screens/pages/search/search.dart';
 
 AppBar appbarWidget(
     {required String title,
@@ -28,10 +29,12 @@ AppBar appbarWidget(
         context != null
             ? IconButton(
                 onPressed: () {
-                  // Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ScreenSearch()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => SearchPage()));
                 },
                 icon: const Icon(
                   Icons.search,
+                  color: Colors.white,
                   size: 28,
                 ))
             : const SizedBox(),
