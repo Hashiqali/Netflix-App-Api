@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:netflix/model/series.dart';
 import 'package:netflix/service/apiservice.dart';
 
+// ignore: must_be_immutable
 class Tvcard extends StatelessWidget {
   Tvcard(
       {super.key,

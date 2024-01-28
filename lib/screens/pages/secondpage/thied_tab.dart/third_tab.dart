@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:netflix/model/series.dart';
 import 'package:netflix/service/apiservice.dart';
 
+// ignore: must_be_immutable
 class Thirdttab extends StatelessWidget {
   Thirdttab({super.key, required this.future});
 

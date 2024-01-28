@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:netflix/service/apiservice.dart';
 
+// ignore: must_be_immutable
 class Firsttab extends StatelessWidget {
   Firsttab({super.key, required this.future});
 

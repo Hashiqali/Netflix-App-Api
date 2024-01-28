@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:netflix/service/apiservice.dart';
 
+// ignore: must_be_immutable
 class SeccondTab extends StatelessWidget {
   SeccondTab({super.key, required this.future});
   Future future;

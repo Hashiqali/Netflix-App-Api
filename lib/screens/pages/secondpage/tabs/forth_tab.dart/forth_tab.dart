@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 import 'package:netflix/service/apiservice.dart';
 
+// ignore: must_be_immutable
 class ForthTab extends StatelessWidget {
   ForthTab({super.key, required this.future});
 

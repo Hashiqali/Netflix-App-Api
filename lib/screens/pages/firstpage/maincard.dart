@@ -5,6 +5,7 @@ import 'package:netflix/service/apiservice.dart';
 import 'package:netflix/service/functions.dart';
 import 'package:palette_generator/palette_generator.dart';
 
+// ignore: must_be_immutable
 class Maincard extends StatelessWidget {
   Maincard({super.key, required this.size});
   Size size;

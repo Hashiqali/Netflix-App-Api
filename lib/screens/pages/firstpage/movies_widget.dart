@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix/model/Movie.dart';
 import 'package:netflix/service/apiservice.dart';
 
+// ignore: must_be_immutable
 class Moviewidget extends StatelessWidget {
   Moviewidget(
       {super.key,
